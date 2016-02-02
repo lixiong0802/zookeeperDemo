@@ -23,13 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="test-maven-api" />
-        <module name="test-maven-console" />
+        <module name="test-maven-client-console" />
         <module name="test-maven-server-console" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.6">
+    <bytecodeTargetLevel>
       <module name="test-maven-api" target="1.5" />
-      <module name="test-maven-console" target="1.5" />
+      <module name="test-maven-client-console" target="1.5" />
       <module name="test-maven-server-console" target="1.5" />
       <module name="zookeeperDemo" target="1.5" />
     </bytecodeTargetLevel>

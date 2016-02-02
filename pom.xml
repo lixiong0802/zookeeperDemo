@@ -7,8 +7,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>test-maven-api</module>
-        <module>test-maven-console</module>
         <module>test-maven-server-console</module>
+        <module>test-maven-client-console</module>
     </modules>
     <name>zookeeperDemo Maven Webapp</name>
     <url>http://maven.apache.org</url>
